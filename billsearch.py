@@ -10,8 +10,7 @@ def main(argv):
 
     bills = list()
     for bill_status_file in bill_status_files.namelist():
-        #print(bill_status_file)
-        
+                
         ## To ignore the __MACOSX files locally
         if bill_status_file.startswith("__"): 
             continue
