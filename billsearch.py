@@ -4,6 +4,7 @@ import re
 from xml.dom import minidom
 
 def main(argv):
+
     search_str = argv[2]
 
     bill_status_files = zipfile.ZipFile('billstatus_xml.zip', 'r')
